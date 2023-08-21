@@ -1,0 +1,268 @@
+/** 同 PC 主题的色彩 Token */
+/** @see https://done.alibaba-inc.com/dsm/whale/design/style/color?themeid=93075 */
+:root {
+  --color-transparent: transparent;
+  /** 纯黑 */
+  --color-black: #000000;
+  /** 纯白 */
+  --color-white: #ffffff;
+  --color-brand1-1: #ecf3ff;
+  --color-brand1-10: #021f64;
+  --color-brand1-2: #e0ebff;
+  --color-brand1-3: #c8d7fa;
+  --color-brand1-4: #9bb8fc;
+  --color-brand1-5: #5e8dff;
+  --color-brand1-6: #2f6cf7;
+  --color-brand1-7: #034dfa;
+  --color-brand1-8: #2650b4;
+  --color-brand1-9: #093396;
+  --color-error-1: #ffefec;
+  --color-error-10: #942222;
+  --color-error-2: #ffe3e3;
+  --color-error-3: #ffc0c0;
+  --color-error-4: #f99292;
+  --color-error-5: #f97070;
+  --color-error-6: #e84646;
+  --color-error-7: #cf3030;
+  --color-error-8: #ba2b2b;
+  --color-error-9: #a62626;
+  --color-fill1-1: #fafafa;
+  --color-fill1-10: #c8cbd0;
+  --color-fill1-2: #f6f8fb;
+  --color-fill1-3: #f4f5f8;
+  --color-fill1-4: #f2f4f8;
+  --color-fill1-5: #e9ebf0;
+  --color-fill1-6: #e6e8ed;
+  --color-fill1-7: #e3e5e8;
+  --color-fill1-8: #dee0e3;
+  --color-fill1-9: #d6d8dc;
+  --color-gradient-1: linear-gradient(270deg, #79e8c7 0%, #08c29e 100%);
+  --color-gradient-2: linear-gradient(270deg, #7deeff 0%, #03c1fd 100%);
+  --color-gradient-3: linear-gradient(270deg, #feed7a 0%, #f5cb22 100%);
+  --color-gradient-4: linear-gradient(270deg, #ffa3a6 0%, #f52743 100%);
+  --color-help-1: #e8fbf9;
+  --color-help-10: #00786f;
+  --color-help-2: #d5f6f2;
+  --color-help-3: #b3f0e9;
+  --color-help-4: #80e0d8;
+  --color-help-5: #52d1c7;
+  --color-help-6: #01c1b2;
+  --color-help-7: #00b0a2;
+  --color-help-8: #009a8e;
+  --color-help-9: #00877d;
+  --color-line1-1: #e5e7ec;
+  --color-line1-10: #06080d;
+  --color-line1-2: #cfd3da;
+  --color-line1-3: #bec1c8;
+  --color-line1-4: #b1b4ba;
+  --color-line1-5: #a0a3a8;
+  --color-line1-6: #8f9196;
+  --color-line1-7: #6a6c70;
+  --color-line1-8: #4b4c4f;
+  --color-line1-9: #25282e;
+  --color-link-1: #3e70a7;
+  --color-link-2: #2969b9;
+  --color-link-3: #29598f;
+  --color-notice-1: #e8f3fc;
+  --color-notice-10: #00488c;
+  --color-notice-2: #d1e9ff;
+  --color-notice-3: #b0d8fd;
+  --color-notice-4: #80c1fe;
+  --color-notice-5: #4ba7fc;
+  --color-notice-6: #0284fd;
+  --color-notice-7: #0175e1;
+  --color-notice-8: #0365c1;
+  --color-notice-9: #0056a5;
+  --color-other-1: #3a3c4b;
+  --color-other-2: #2a2c3c;
+  --color-other-3: #14161a;
+  --color-other-4: rgba(0, 0, 0, 0.7);
+  --color-other-5: rgba(0, 0, 0, 0.5);
+  --color-success-1: #e8f9ed;
+  --color-success-10: #026a24;
+  --color-success-2: #d3f6d9;
+  --color-success-3: #abecb6;
+  --color-success-4: #89dc9a;
+  --color-success-5: #5bcb72;
+  --color-success-6: #2dbe4b;
+  --color-success-7: #10a42f;
+  --color-success-8: #098f25;
+  --color-success-9: #078130;
+  --color-text1-1: #e5e7ec;
+  --color-text1-10: #06080d;
+  --color-text1-2: #cfd3da;
+  --color-text1-3: #bec1c8;
+  --color-text1-4: #b1b4ba;
+  --color-text1-5: #a0a3a8;
+  --color-text1-6: #8f9196;
+  --color-text1-7: #6a6c70;
+  --color-text1-8: #4b4c4f;
+  --color-text1-9: #25282e;
+  --color-warning-1: #fff9f0;
+  --color-warning-10: #955500;
+  --color-warning-2: #fff3e3;
+  --color-warning-3: #ffe4c0;
+  --color-warning-4: #ffc980;
+  --color-warning-5: #ffb756;
+  --color-warning-6: #ff9300;
+  --color-warning-7: #ea8700;
+  --color-warning-8: #cc7500;
+  --color-warning-9: #b36700;
+}
+/** @see https://github.com/ant-design/ant-design-mobile/blob/master/src/global/theme-default.less */
+:root {
+  --adm-color-primary: var(--color-brand1-6);
+  --adm-color-success: var(--color-success-6);
+  --adm-color-warning: var(--color-warning-6);
+  --adm-color-danger: var(--color-error-6);
+
+  --adm-color-text: var(--color-text1-9);
+  --adm-color-text-secondary: var(--color-text1-7);
+  --adm-color-weak: var(--color-text1-6);
+  --adm-color-light: var(--color-text1-4);
+  --adm-color-border: var(--color-line1-1);
+  --adm-color-background: var(--color-white);
+
+  --adm-color-white: var(--color-white);
+  --adm-color-box: var(--color-fill1-3);
+
+  --adm-color-text-light-solid: var(--adm-color-white);
+  --adm-color-text-dark-solid: var(--color-black);
+  --adm-color-fill-content: var(--adm-color-box);
+
+  --adm-border-color: var(--adm-color-border);
+}
+/** 同 PC 主题的色彩 Token */
+/** @see https://done.alibaba-inc.com/dsm/whale/design/style/color?themeid=93075 */
+:root {
+  --color-transparent: transparent;
+  /** 纯黑 */
+  --color-black: #000000;
+  /** 纯白 */
+  --color-white: #ffffff;
+  --color-brand1-1: #ecf3ff;
+  --color-brand1-10: #021f64;
+  --color-brand1-2: #e0ebff;
+  --color-brand1-3: #c8d7fa;
+  --color-brand1-4: #9bb8fc;
+  --color-brand1-5: #5e8dff;
+  --color-brand1-6: #2f6cf7;
+  --color-brand1-7: #034dfa;
+  --color-brand1-8: #2650b4;
+  --color-brand1-9: #093396;
+  --color-error-1: #ffefec;
+  --color-error-10: #942222;
+  --color-error-2: #ffe3e3;
+  --color-error-3: #ffc0c0;
+  --color-error-4: #f99292;
+  --color-error-5: #f97070;
+  --color-error-6: #e84646;
+  --color-error-7: #cf3030;
+  --color-error-8: #ba2b2b;
+  --color-error-9: #a62626;
+  --color-fill1-1: #fafafa;
+  --color-fill1-10: #c8cbd0;
+  --color-fill1-2: #f6f8fb;
+  --color-fill1-3: #f4f5f8;
+  --color-fill1-4: #f2f4f8;
+  --color-fill1-5: #e9ebf0;
+  --color-fill1-6: #e6e8ed;
+  --color-fill1-7: #e3e5e8;
+  --color-fill1-8: #dee0e3;
+  --color-fill1-9: #d6d8dc;
+  --color-gradient-1: linear-gradient(270deg, #79e8c7 0%, #08c29e 100%);
+  --color-gradient-2: linear-gradient(270deg, #7deeff 0%, #03c1fd 100%);
+  --color-gradient-3: linear-gradient(270deg, #feed7a 0%, #f5cb22 100%);
+  --color-gradient-4: linear-gradient(270deg, #ffa3a6 0%, #f52743 100%);
+  --color-help-1: #e8fbf9;
+  --color-help-10: #00786f;
+  --color-help-2: #d5f6f2;
+  --color-help-3: #b3f0e9;
+  --color-help-4: #80e0d8;
+  --color-help-5: #52d1c7;
+  --color-help-6: #01c1b2;
+  --color-help-7: #00b0a2;
+  --color-help-8: #009a8e;
+  --color-help-9: #00877d;
+  --color-line1-1: #e5e7ec;
+  --color-line1-10: #06080d;
+  --color-line1-2: #cfd3da;
+  --color-line1-3: #bec1c8;
+  --color-line1-4: #b1b4ba;
+  --color-line1-5: #a0a3a8;
+  --color-line1-6: #8f9196;
+  --color-line1-7: #6a6c70;
+  --color-line1-8: #4b4c4f;
+  --color-line1-9: #25282e;
+  --color-link-1: #3e70a7;
+  --color-link-2: #2969b9;
+  --color-link-3: #29598f;
+  --color-notice-1: #e8f3fc;
+  --color-notice-10: #00488c;
+  --color-notice-2: #d1e9ff;
+  --color-notice-3: #b0d8fd;
+  --color-notice-4: #80c1fe;
+  --color-notice-5: #4ba7fc;
+  --color-notice-6: #0284fd;
+  --color-notice-7: #0175e1;
+  --color-notice-8: #0365c1;
+  --color-notice-9: #0056a5;
+  --color-other-1: #3a3c4b;
+  --color-other-2: #2a2c3c;
+  --color-other-3: #14161a;
+  --color-other-4: rgba(0, 0, 0, 0.7);
+  --color-other-5: rgba(0, 0, 0, 0.5);
+  --color-success-1: #e8f9ed;
+  --color-success-10: #026a24;
+  --color-success-2: #d3f6d9;
+  --color-success-3: #abecb6;
+  --color-success-4: #89dc9a;
+  --color-success-5: #5bcb72;
+  --color-success-6: #2dbe4b;
+  --color-success-7: #10a42f;
+  --color-success-8: #098f25;
+  --color-success-9: #078130;
+  --color-text1-1: #e5e7ec;
+  --color-text1-10: #06080d;
+  --color-text1-2: #cfd3da;
+  --color-text1-3: #bec1c8;
+  --color-text1-4: #b1b4ba;
+  --color-text1-5: #a0a3a8;
+  --color-text1-6: #8f9196;
+  --color-text1-7: #6a6c70;
+  --color-text1-8: #4b4c4f;
+  --color-text1-9: #25282e;
+  --color-warning-1: #fff9f0;
+  --color-warning-10: #955500;
+  --color-warning-2: #fff3e3;
+  --color-warning-3: #ffe4c0;
+  --color-warning-4: #ffc980;
+  --color-warning-5: #ffb756;
+  --color-warning-6: #ff9300;
+  --color-warning-7: #ea8700;
+  --color-warning-8: #cc7500;
+  --color-warning-9: #b36700;
+}
+/** @see https://github.com/ant-design/ant-design-mobile/blob/master/src/global/theme-default.less */
+:root {
+  --adm-color-primary: var(--color-brand1-6);
+  --adm-color-success: var(--color-success-6);
+  --adm-color-warning: var(--color-warning-6);
+  --adm-color-danger: var(--color-error-6);
+
+  --adm-color-text: var(--color-text1-9);
+  --adm-color-text-secondary: var(--color-text1-7);
+  --adm-color-weak: var(--color-text1-6);
+  --adm-color-light: var(--color-text1-4);
+  --adm-color-border: var(--color-line1-1);
+  --adm-color-background: var(--color-white);
+
+  --adm-color-white: var(--color-white);
+  --adm-color-box: var(--color-fill1-3);
+
+  --adm-color-text-light-solid: var(--adm-color-white);
+  --adm-color-text-dark-solid: var(--color-black);
+  --adm-color-fill-content: var(--adm-color-box);
+
+  --adm-border-color: var(--adm-color-border);
+}
