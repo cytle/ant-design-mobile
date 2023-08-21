@@ -1,5 +1,6 @@
 import './global.less'
 import { canUseDom } from '../utils/can-use-dom'
+import '@alife/aookaa-antd-mobile-theme'
 
 if (canUseDom) {
   // Make sure the `:active` CSS selector of `button` and `a` take effect
